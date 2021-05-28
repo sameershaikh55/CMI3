@@ -347,13 +347,25 @@ address {
 }
 
 .tm-nav-link {
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 4px;	
+}
+
+.tm-nav-link.active,
+.tm-nav-link:hover {
+	border-bottom: 2px solid #fff;
+	font-weight: 600;
+}
+
+.tm-nav-linkM {
 	color: #000;
 	text-decoration: none;
 	padding-bottom: 4px;
 }
 
-.tm-nav-link.active,
-.tm-nav-link:hover {
+.tm-nav-linkM.activeM,
+.tm-nav-linkM:hover {
 	border-bottom: 2px solid #000;
 	font-weight: 600;
 }
@@ -445,8 +457,16 @@ address {
 	display: none;
 }
 
+.tm-navMobile {
+	margin-top: 1rem;
+	display: none;
+}
+
 @media screen and (max-width: 768px) {
 	.mobileViewH_cotainer {
+		display: block;
+	}
+	.tm-navMobile {
 		display: block;
 	}
 }
