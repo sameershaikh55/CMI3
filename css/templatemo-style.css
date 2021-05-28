@@ -359,14 +359,14 @@ address {
 }
 
 .tm-nav-linkM {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 	padding-bottom: 4px;
 }
 
 .tm-nav-linkM.activeM,
 .tm-nav-linkM:hover {
-	border-bottom: 2px solid #000;
+	border-bottom: 3px solid #fff;
 	font-weight: 600;
 }
 
@@ -458,8 +458,10 @@ address {
 }
 
 .tm-navMobile {
-	margin-top: 1rem;
+	margin-top: -0.3rem;
 	display: none;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 1rem 0rem 1.4rem 0rem;
 }
 
 @media screen and (max-width: 768px) {
